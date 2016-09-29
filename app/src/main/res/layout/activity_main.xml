@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.junqi.user.huanxin.MainActivity">
+
+
+    <EditText
+        android:id="@+id/et_use_name"
+        android:hint="用户名"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+   <Button
+       android:id="@+id/btn_register"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="注册"
+       />
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="登录"
+        />
+
+    <EditText
+        android:id="@+id/ed_friend"
+        android:hint="好友id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="添加好友"
+        />
+
+    <EditText
+        android:id="@+id/et_content"
+        android:hint="聊天内容"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="发送消息"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+    </ScrollView>
+
+</LinearLayout>
